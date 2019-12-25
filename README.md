@@ -1,5 +1,5 @@
 # Deep Prior Guided Network for High-quality Image Fusion
-Implementation for robust two-exposure image fusion, ICME 2020 (under review).
+Implementation of deep prior guided network for high-quality image fusion, ICME 2020 (under review).
 
 ## Introduction
 In this repository, we provide

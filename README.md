@@ -9,7 +9,11 @@ In this repository, we provide
 * Fusion examples
 
 ## Architecture
+
 ![](./framework.png)
+
+Note that the MDSR architecture for the challenge and for the paper[1] is slightly different.
+During the challenge, MDSR had variation between two challenge tracks. While we had scale-specific feature extraction modules for track 2:unknown downscaling, we didn't use the scale-specific modules for track 1:bicubic downscaling.
 
 ## Test models
 1. Clone this github repo. 

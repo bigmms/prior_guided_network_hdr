@@ -18,13 +18,16 @@ During the challenge, MDSR had variation between two challenge tracks. While we 
 ## Test models
 1. Clone this github repo. 
 ```
-git clone https://github.com/bigmms/reinforcement_learning_hdr
-cd reinforcement_learning_hdr
+git clone https://github.com/bigmms/prior_guided_network_hdr
+cd prior_guided_network_hdr
 ```
 2. Place your own **LDR images** in `./test/Images` folder. (There are several sample images there).
-3. Download pretrained models from [Google Drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing). Place the trained model in `./checkpoints`. 
+3. Download pretrained models from [Google Drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing). Place the trained model in `./saved_models`. 
 4. Run test. We provide the trained model and you can config in the `agent_test.py`.
 ```
 python agent_test.py
 ```
 5. The results are in `./test/test_run/results` folder.
+
+## Results
+![](./results.png)

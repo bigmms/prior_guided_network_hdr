@@ -40,8 +40,8 @@ python test.py --model_path ./saved_model/generator.h5 --testing_dir ./HDR/
 ```
     
 
-5. The results are in `./test/test_run/results` folder.
+5. The results are in `./Results` folder.
 
 
 ## Results
-![](./results.png)
+![](./demo/results.png)

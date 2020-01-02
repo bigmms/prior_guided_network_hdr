@@ -36,7 +36,7 @@ cd prior_guided_network_hdr
 cd $makeReposit/prior_guided_network_hdr
 
 # Test model
-python test.py --model_path ./saved_model/generator.h5 --testing_dir ./Test/Images/
+python test.py --model_path ./saved_model/generator.h5 --testing_dir ./HDR/
 ```
     
 

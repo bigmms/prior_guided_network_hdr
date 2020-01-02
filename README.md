@@ -44,4 +44,4 @@ python test.py --model_path ./saved_model/generator.h5 --testing_dir ./HDR/
 
 
 ## Results
-![](./demo/results.png)
+![](./demo/results-1.png)

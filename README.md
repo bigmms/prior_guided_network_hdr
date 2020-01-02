@@ -10,7 +10,7 @@ In this repository, we provide
 
 ## Architecture
 
-![](./framework.png)
+![](./demo/framework.png)
 
 ## Test models
 1. Clone this github repo. 

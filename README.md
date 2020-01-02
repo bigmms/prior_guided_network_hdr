@@ -19,7 +19,7 @@ git clone https://github.com/bigmms/prior_guided_network_hdr
 cd prior_guided_network_hdr
 ```
 2. Place your own **LDR images** in `./HDR` folder. (There are several sample images there).
-3. Download pretrained models from [Google Drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing). Place the trained model in `./saved_models`. 
+3. Download pretrained models from [Google Drive](https://drive.google.com/file/d/19lT7K_Ea0qYsEIBI44tS8D76tHUhDoxU/view?usp=sharing). Place the trained model in `./saved_models`. 
 4. Run test. We provide the trained model and you can config in the `agent_test.py`.
 ```
 python agent_test.py

@@ -12,6 +12,14 @@ In this repository, we provide
 
 ![](./demo/framework.png)
 
+## Dependencies
+* Python 3
+* [Tensorflow >= 1.14.0](https://www.tensorflow.org/) (CUDA version >= 10.0 if installing with CUDA. [More details](https://www.tensorflow.org/install/gpu/))
+* Python packages:  `pip install -r requirement.txt`
+
+Our code is tested under Windows 10 environment with GeForce GTX 1060 GPU (6GB VRAM). Might work under others, but didn't get to test any other OSs just yet.
+
+
 ## Test models
 1. Clone this github repo. 
 ```
@@ -20,11 +28,20 @@ cd prior_guided_network_hdr
 ```
 2. Place your own **LDR images** in `./HDR` folder. (There are several sample images there).
 3. Download pretrained models from [Google Drive](https://drive.google.com/file/d/19lT7K_Ea0qYsEIBI44tS8D76tHUhDoxU/view?usp=sharing). Place the trained model in `./saved_models`. 
-4. Run test. We provide the trained model and you can config in the `test.py`.
+4. Run test. We provide the trained model and you can config in the `test.py`.You can run different models and testing datasets by changing input arguments.
 ```
-python agent_test.py
+# To run with different models, set --model as your model path.
+# To run for different testing dataset, you need to set --testing_dir as your data path.
+
+cd $makeReposit/prior_guided_network_hdr
+
+# Test model
+python test.py --model_path ./saved_model/generator.h5 --testing_dir ./Test/Images/
 ```
+    
+
 5. The results are in `./test/test_run/results` folder.
+
 
 ## Results
 ![](./results.png)

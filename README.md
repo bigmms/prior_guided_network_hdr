@@ -28,7 +28,7 @@ cd prior_guided_network_hdr
 ```
 2. Place your own **LDR images** in `./HDR` folder. (There are several sample images there).
 3. Download pretrained models from [Google Drive](https://drive.google.com/file/d/19lT7K_Ea0qYsEIBI44tS8D76tHUhDoxU/view?usp=sharing). Place the trained model in `./saved_models`. 
-4. Run test. We provide the trained model and you can config in the `test.py`.You can run different models and testing datasets by changing input arguments.
+4. Run test. We provide the trained model and you can config in the `PGNet_test.py`.You can run different models and testing datasets by changing input arguments.
 ```
 # To run with different models, set --model as your model path.
 # To run for different testing dataset, you need to set --testing_dir as your data path.
@@ -36,7 +36,7 @@ cd prior_guided_network_hdr
 cd $makeReposit/prior_guided_network_hdr
 
 # Test model
-python test.py --model_path ./saved_model/generator.h5 --testing_dir ./HDR/
+python PGNet_test.py --model ./saved_model/generator.h5 --testing_dir ./HDR/
 ```
     
 

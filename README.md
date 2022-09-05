@@ -1,5 +1,7 @@
 # Deep Prior Guided Network for High-quality Image Fusion
-Implementation of deep prior guided network for high-quality image fusion, ICME 2020 (under review).
+Implementation of deep prior guided network for high-quality image fusion, ICME 2020.
+
+**Paper**: [PDF](https://ieeexplore.ieee.org/document/9102832)
 
 ## Introduction
 In this repository, we provide
@@ -45,3 +47,16 @@ python PGNet_test.py --model ./saved_model/generator.h5 --testing_dir ./HDR/
 
 ## Results
 ![](./demo/results-1.png)
+
+## License + Attribution
+This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9102832):
+```
+@INPROCEEDINGS{YinICME20, 
+author={Yin, Jia-Li and Chen, Bo-Hao and Peng, Yan-Tsung and Tsai, Chung-Chi}, 
+booktitle={IEEE International Conference on Multimedia and Expo (ICME)},
+title={Deep Prior Guided Network For High-Quality Image Fusion},  
+year={2020},  
+volume={}, 
+number={},  
+pages={1-6}}
+```
